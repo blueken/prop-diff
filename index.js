@@ -8,7 +8,7 @@ function kv2kt (obj) {
   return Object.fromEntries(R.zip(srcKeys, srcTypes))
 }
 
-function propChecker (srcObj, destObj) {
+function propDiff (srcObj, destObj) {
   let result = true
   const srcKeys = Object.keys(srcObj)
   const destKeys = Object.keys(destObj)
