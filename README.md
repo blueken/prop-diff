@@ -1,6 +1,16 @@
 # Prop Diff
 `propDiff(srcObj, destObj)` return true or false, `console.log`  diff message at the same time
 
+### STEP1 
+install dependencies
+
+```
+npm install -S ramda colors
+```
+
+### STEP2
+require and use
+
 * Example1
 ```
 const propDiff = require('propDiff')
