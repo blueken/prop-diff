@@ -1,11 +1,13 @@
 # Prop Diff
-`propDiff(srcObj, destObj)` return true or false, `console.log`  diff message at the same time
+`propDiff(srcObj, destObj)` return true or false, `console.log`  diff message at the same time.
+
+It's useful to check if the real API format match the DOCS
 
 ### STEP1 
 install dependencies
 
 ```
-npm install -S ramda colors
+npm install -S ramda colors prop-diff
 ```
 
 ### STEP2
