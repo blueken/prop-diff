@@ -3,6 +3,15 @@
 
 It's useful to check if the real API format match the DOCS
 
+```
+⠴ --- [object Object] Delete these keys: foods
+⠦ +++ [object Object] Add these keys: house,favorite
+### Type error: 'name' [object Symbol] --> [object String]
+### Type error: 'age' [object String] --> [object Number]
+       ### Recursive check: 'company'
++++ [object Object] Add these keys: niubiliby
+```
+
 ### STEP1 
 install dependencies
 
@@ -47,6 +56,7 @@ var destObj = {
 }
 
 propDiff(srcObj, destObj)
+
 ```
 
 

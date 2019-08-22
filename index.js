@@ -35,7 +35,7 @@ function propDiff (srcObj, destObj) {
       console.log(`### Type error: '${v}' ${srcKT[v].red} --> ${destKT[v].green}`);
     } else if( srcKT[v] === '[object Object]') {
       console.log(`       ### Recursive check: '${v}'`.rainbow);
-      result = propChecker(srcObj[v], destObj[v])
+      result = propDiff(srcObj[v], destObj[v])
       
     }
   })
