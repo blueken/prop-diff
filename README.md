@@ -16,7 +16,7 @@ It's useful to check if the real API format match the DOCS
 install dependencies
 
 ```
-npm install -S ramda colors prop-diff
+npm install --save-dev ramda colors prop-diff
 ```
 
 ### STEP2
